@@ -225,8 +225,8 @@ function Section({ id, icon, title, badge, openState, setOpenState, hideMap, tog
 // Cloudinary config — set in Vercel env vars:
 // VITE_CLOUDINARY_CLOUD_NAME y VITE_CLOUDINARY_UPLOAD_PRESET
 // O editar directamente aquí para desarrollo local:
-const CLOUDINARY_CLOUD_NAME    = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME    || '';
-const CLOUDINARY_UPLOAD_PRESET = import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET || '';
+const CLOUDINARY_CLOUD_NAME    = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME    || 'dumzb35u7';
+const CLOUDINARY_UPLOAD_PRESET = import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET || 'sensation-emails';
 
 const cloudinaryConfigured = () =>
   CLOUDINARY_CLOUD_NAME.trim() !== '' && CLOUDINARY_UPLOAD_PRESET.trim() !== '';
